@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 开发环境
-permalink: /environment/
+permalink: /开发环境
 ---
 
 # 开发环境

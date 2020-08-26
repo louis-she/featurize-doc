@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 文件持久化
-permalink: /workfolder/
+permalink: /文件持久化
 ---
 
 # 文件持久化
