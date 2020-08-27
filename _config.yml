@@ -24,7 +24,7 @@ email: chenglu.she@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Featurize 文档
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "docs.featurize.cn" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.featurize.cn" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:  chenglu_she
 github_username:  louis-she
 
