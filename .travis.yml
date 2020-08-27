@@ -6,8 +6,8 @@ script:
 - bundle exec jekyll build
 before_install:
 - openssl aes-256-cbc -K $encrypted_23a67a570cc9_key -iv $encrypted_23a67a570cc9_iv
-  -in deploy.enc -out ~/.ssh/id_rsa -d
+  -in deploy.enc -out ~/.ssh/deploy -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host featurize.cn\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
-  - ssh deploy@featurize.cn 'cd featurize-doc && git pull origin master && bundle install && jekyll build'
+- ssh deploy@featurize.cn 'cd featurize-doc && git pull origin master && bundle install && jekyll build'
