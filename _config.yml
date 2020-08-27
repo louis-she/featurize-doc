@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Featurize 文档
-search_enabled: true
+search_enabled: false
 email: chenglu.she@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Featurize 文档
@@ -28,10 +28,34 @@ url: "docs.featurize.cn" # the base hostname & protocol for your site, e.g. http
 twitter_username:  chenglu_she
 github_username:  louis-she
 
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
 # Build settings
 theme: "just-the-docs"
 plugins:
   - jekyll-feed
+
+aux_links:
+  "返回控制台":
+    - "//featurize.cn"
+  "Github 仓库地址":
+    - "//github.com/louis-she/featurize-doc"
+
+# Footer last edited timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+gh_edit_link: true
+gh_edit_link_text: "在 Github 上编辑此页"
+gh_edit_repository: "https://github.com/louis-she/featurize-doc"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
+
+back_to_top: true
+back_to_top_text: "回到顶部"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
