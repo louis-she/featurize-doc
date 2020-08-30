@@ -34,6 +34,8 @@ A： 可能有以下两个原因：
 1. 你程序要求的显存大于机器提供的显存，尝试减小 batch size 或减小输入再次尝试。
 2. 你没有关闭之前训练的进程，请确保没有其他进程占用显存。
 
+![](/asset/shutdown.png)
+
 ### Q：TensorFlow 程序报错 This is probably because cuDNN failed to initialize？
 
 在程序的开始部分添加下面这两行代码：
@@ -43,9 +45,7 @@ import os
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 ```
 
-参考链接：https://stackoverflow.com/questions/53698035/failed-to-get-convolution-algorithm-this-is-probably-because-cudnn-failed-to-in
-
-![](/asset/shutdown.png)
+[参考链接](https://stackoverflow.com/questions/53698035/failed-to-get-convolution-algorithm-this-is-probably-because-cudnn-failed-to-in)
 
 ### Q：怎么用 Tensorflow 1？
 
