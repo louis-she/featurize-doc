@@ -49,4 +49,8 @@ os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
 ### Q：怎么用 Tensorflow 1？
 
-A： 参考 [开发环境]({% link docs/environment.md %})
+A： 参考 [开发环境]({% link docs/environment.md %})。
+
+### Q：为什么解压很慢？
+
+A： 如果你将文件解压到 work 目录，并且压缩包中包含很多小文件，这时解压性能就会大打折扣，因为每解压出一个小文件，就会做一次云端同步（有 10000 个小文件就同步 10000 次），关于同步机制，你可以参考 [文件持久化]({% link docs/persistance.md %})。
