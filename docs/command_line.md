@@ -51,6 +51,9 @@ Successfully requested instance.
 Successfully released instance.
 ```
 
+Tip：如果你在工作区内使用命令，可以直接通过环境变量 `$UUID` 得到当前实例的 ID 号。
+{: .fe-info-block}
+
 ## 常见使用场景
 
 1. **训练完毕后自动退还实例** 只需要在训练代码的最后加上 `featurize instance release xxxx` 的命令即可。
