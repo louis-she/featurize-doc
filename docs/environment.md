@@ -36,7 +36,9 @@ pip install --user some-awesome-package
 
 ## CUDA 版本和预装的框架
 
-目前针对 `TensorFlow 1` 和 `TensorFlow 2` 提供了两种环境，你可以使用右下角的快速按钮来切换环境。
+**CUDA 10**
+
+除了3080，3090的其他机器安装了 CUDA 10，并且针对 `TensorFlow 1` 和 `TensorFlow 2` 提供了两种环境，你可以使用右下角的快速按钮来切换环境。
 
 ![](/asset/environment-switch.png)
 
@@ -46,3 +48,9 @@ pip install --user some-awesome-package
 |:-------------:  |:------------------:|:------:|:------:
 |    10.1        |  2.2  |  1.6  | 1.0.0   |
 |    10.0        |  1.15  |  N/A  | N/A   |
+
+**CUDA 11**
+
+3080，3090 两种机型由于显卡驱动的限制，仅能安装最新的 CUDA 11。目前大部分深度学习框架还未发布针对 CUDA 11 的版本。
+
+这两种机型上所安装的 TensorFlow 2.4 和 PyTorch 1.7 是 Featurize 平台针对 CUDA 11 用官方源码编译的版本。我们对 PyTorch 1.7 进行了一些测试，大部分任务都能顺利且正确得被运行。
