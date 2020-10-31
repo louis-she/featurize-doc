@@ -25,7 +25,7 @@ Featurize 预装了常用的机器学习/深度学习框架，通常你不需要
 
 ## Python 环境
 
-服务器所使用的 Python 版本是 `3.7.4`，安装在 `/home/jovyan/.pyenv/versions/3.7.4` 目录中。我们预先安装了大多数常用的 Python 包，如果你需要的包没有预装，你也可以使用下面的命令直接安装
+服务器所使用的 Python 版本是 `3.7.4`，安装在 `/home/featurize/.pyenv/versions/3.7.4` 目录中。我们预先安装了大多数常用的 Python 包，如果你需要的包没有预装，你也可以使用下面的命令直接安装
 
 ```shell
 pip install --user some-awesome-package

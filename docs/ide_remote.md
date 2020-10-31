@@ -16,7 +16,7 @@ nav_order: 10
 ```
 Host 10.0.*
   ProxyJump featurize@featurize.cn
-  User jovyan
+  User featurize
   Port 2222
 ```
 
@@ -26,12 +26,12 @@ Host 10.0.*
 然后，测试连接是否正常：
 
 ```bash
-ssh jovyan@10.0.xx.xx -p 2222  # 请将 xx.xx 更换为你使用机器的 ip 段
+ssh featurize@10.0.xx.xx -p 2222  # 请将 xx.xx 更换为你使用机器的 ip 段
 ```
 
 如果连接正常，你就可以参考各个 IDE 的远程开发文档进行 IDE 的配置了，IDE 的配置中：
 
-User 填写：jovyan
+User 填写：featurize
 
 Server 填写：10.0.xx.xx，同样 xx.xx 替换成你申请机器的 ip 段
 
