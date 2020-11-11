@@ -20,6 +20,9 @@ Host 10.0.*
   Port 2222
 ```
 
+Windows 用户设置请参考 https://zhuanlan.zhihu.com/p/103578899
+{:.fe-success-block}
+
 如果你本机的网络环境已经在用 `10.0.0.0/16` 的地址段，这项配置添加后会导致你不能 ssh 到局域网中的其他机器。
 {:.fe-warning-block}
 
