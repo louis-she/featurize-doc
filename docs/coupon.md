@@ -38,7 +38,7 @@ permalink: /福利活动
 
 * [目前哪里可以租用到 GPU 服务器？](https://www.zhihu.com/question/51707286)（25W 浏览量, 800 关注者）
 * [学生党能去哪里租用便宜的gpu云服务器来进行深度学习计算?](https://www.zhihu.com/question/271520755)（15W 浏览量，495 关注者）
-* [深度学习gpu服务器, 自己搭建 vs 租用, 那种划算?](https://www.zhihu.com/question/56772074)（4W 浏览量，80 关注着）
+* [深度学习gpu服务器, 自己搭建 vs 租用, 那种划算?](https://www.zhihu.com/question/56772074)（4W 浏览量，80 关注者）
 * [GPU服务器租用，GPU服务器出租，哪里可以租到gpu服务器？](https://www.zhihu.com/question/269093917)（1.2W 浏览量，41 关注者）
 
 **第二步：描述 Featurize 的功能、价格、福利等内容，图片和视频内容更具有说服力**
