@@ -2,6 +2,7 @@
 layout: page
 title: 福利 & 活动
 permalink: /福利活动
+nav_order: 21
 ---
 
 # 福利 * 活动
