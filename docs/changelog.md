@@ -9,6 +9,16 @@ nav_order: 20
 
 Featurize 平台功能、工作区环境的更新日志都在这里。
 
+## 2021-01-23
+
+更新工作区环境，主要有以下变更：
+
+* JupyterLab 从 2.1.0 升级为 3.0.5。
+* 预装了 Python Language Server，Notebook 支持代码提示了。
+* 使用 conda 管理 Python 环境，TensorFlow 预装版本从 2.3.1 改为 anaconda 源最新的 2.2。
+* 去掉右下角的环境切换的功能，现在请使用 conda 来切换环境。
+
+
 ## 2020-10-31
 
 更新工作区的默认环境，主要是为了升级 PyTorch 官方发布的 1.7 版本，PyTorch 1.7 支持 3080/3090，所以本次更新后 30 系列的 PyTorch 1.7 将从 Nightly Build 版切换为官方 release 的版本。
