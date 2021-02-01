@@ -44,18 +44,9 @@ Featurize 为工作区添加了一些应用：
 
 ### SSH 连接
 
-如果你希望通过本地的 SSH 客户端连接到你所占用的机器，可以使用此功能。平台禁止用户名密码登录方式，仅允许使用公钥登录的方式。
+如果你希望通过本地的 SSH 客户端连接到你所占用的机器，可以使用此功能。你可以使用密码登录或公钥登录
 
 ![](/asset/ssh.png)
 
-由于 SSH 连接使用了跳板机，所以请确保你的 SSH 客户端开启了 `Agent Forwarding` 功能。
-{: .fe-warning-block}
-
 该 SSH 隧道支持 VS Code 等开发工具的**远程开发功能**。
 {: .fe-success-block}
-
-### VS Code
-
-一个在线的 VS Code 开发环境。
-
-![](/asset/online-vscode.png)
