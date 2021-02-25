@@ -7,7 +7,7 @@ layout: home
 
 # 欢迎使用 Featurize
 
-Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好用的 GPU 实例。
+Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好用的 GPU 实例。<span style="color: red">请不要使用 Featurize 平台的机器做挖矿用途，一旦发现没收全部余额恕不退还</span>。
 
 如果你第一次接触 Featurize，强烈建议你阅读[快速开始]({% link docs/quickstart.md %})。
 
