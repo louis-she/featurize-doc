@@ -42,11 +42,11 @@ Featurize 预装了常用的机器学习/深度学习框架，通常你不需要
 
 Conda 的 base 环境预装了 cudatoolkit 10.1，由于是在虚拟环境（base）中安装的，所以 CUDA 的位置位于 Conda 的虚拟环境的目录中，具体的：
 
-CUDA 库文件地址: `/environment/python/versions/miniconda3-4.7.12/lib`
+CUDA 库文件地址: `/usr/local/cuda-11.0/lib`
 
-CUDA 头文件地址：`/environment/python/versions/miniconda3-4.7.12/include`
+CUDA 头文件地址：`/usr/local/cuda-11.0/include`
 
-nvcc 地址：`/environment/python/versions/miniconda3-4.7.12/bin`
+nvcc 地址：`/usr/local/cuda-11.0/bin/nvcc`
 
 如果你需要手动编译一些使用 CUDA 的 C++ 项目，需要正确设置**相应的环境变量**或修改**编译参数**。
 
