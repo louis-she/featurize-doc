@@ -7,13 +7,18 @@ layout: home
 
 # 欢迎使用 Featurize
 
-Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好用的 GPU 实例。<string>请不要使用 Featurize 平台的机器做挖矿用途，一旦发现没收全部余额恕不退还</strong>。
+Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好用的 GPU 实例。<strong>请不要使用 Featurize 平台的机器做挖矿用途，一旦发现没收全部余额恕不退还</strong>。
 
 如果你第一次接触 Featurize，强烈建议你阅读[快速开始]({% link docs/quickstart.md %})。
 
 另外，你可以扫描下方二维码加入用户群，并在群中提出**关于平台**的任何疑问。
 
 <img src="https://featurize-public.oss-cn-beijing.aliyuncs.com/wechat-group.png" width="120" height="120" />
+
+## 视频教程
+
+[初见篇 - 举个例子，快速上手](https://www.bilibili.com/video/BV1pw411Z7p5/)
+[基础篇 - 同步盘的玩法](https://www.bilibili.com/video/BV1zA41137Hg/)
 
 ## 关于文档
 
