@@ -19,6 +19,8 @@ Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好�
 
 * [初见篇 - 举个例子，快速上手](https://www.bilibili.com/video/BV1pw411Z7p5/)
 * [基础篇 - 同步盘的玩法](https://www.bilibili.com/video/BV1zA41137Hg/)
+* [基础篇 - 数据集的用法](https://www.bilibili.com/video/BV1RQ4y1X7CU/)
+* [基础篇 - 省钱妙招](https://www.bilibili.com/video/BV1t5411M7v6/)
 
 ## 关于文档
 
