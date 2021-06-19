@@ -11,9 +11,9 @@ Featurize 是一个算力共享平台，我们旨在为用户提供廉价、好�
 
 如果你第一次接触 Featurize，强烈建议你阅读[快速开始]({% link docs/quickstart.md %})。
 
-另外，你可以扫描下方二维码加入用户群，并在群中提出**关于平台**的任何疑问。
+另外，你可以扫描下方二维码关注公众号，首次绑定并关注公众号会获得 10 元代金券奖励。
 
-<img src="https://featurize-public.oss-cn-beijing.aliyuncs.com/wechat-group.png" width="120" height="120" />
+<img src="https://featurize-public.oss-cn-beijing.aliyuncs.com/qrcode_for_gh_587ae2df286b_258.jpg" width="120" height="120" />
 
 ## 视频教程
 
